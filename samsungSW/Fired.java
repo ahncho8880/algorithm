@@ -1,4 +1,4 @@
-package SamsungSW;
+package samsungSW;
 
 import java.util.Scanner;
 

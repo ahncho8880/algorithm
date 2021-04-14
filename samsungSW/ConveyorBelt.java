@@ -1,6 +1,5 @@
 package samsungSW;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ConveyorBelt {
@@ -26,24 +25,19 @@ public class ConveyorBelt {
         for(int i=2*N-1;i>=0;i--){
             if(i==0){
                 durability[i] = temp;
-                System.out.println(Arrays.toString(durability));
-                System.out.println(Arrays.toString(robot));
                 moveRobot(robot,durability);
-                System.out.println(Arrays.toString(durability)+"*");
-                System.out.println(Arrays.toString(robot)+"*");
                 if(durability[i]>0){
                     durability[i]-=1;
                     robot[i] = true;
-                }
+                }else robot[i] = false;
             }else if(i==2*N-1){
                 temp = durability[i];
                 durability[i] = durability[i-1];
-            }else if(i==N-1){
-                robot[i] = false;
-                durability[i] = durability[i-1];
             }else{
+                if(i<N){
+                    robot[i]= robot[i-1];
+                }
                 durability[i] = durability[i-1];
-                // robot[i] = robot[i-1];
             }
         }
         
@@ -53,13 +47,15 @@ public class ConveyorBelt {
         rotateConveyor(robot, durability, useless, cnt+1);
     }
     private static void moveRobot(boolean[] robot, int[] durability){
-        for(int i=N-1;i>=0;i--){
+        for(int i=N-1;i>=1;i--){
             if(robot[i]){
                 int k = i+1;
-                while(k<N && durability[k]>0 && !robot[k]){
+                if(k<N && durability[k]>0 && !robot[k]){
                     robot[k-1] = false;
                     durability[k] -= 1;
                     robot[k++] = true;
+                }else if(k==N){
+                    robot[k-1] = false;
                 }
             }
         }
