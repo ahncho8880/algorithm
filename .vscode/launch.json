@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Plus123",
+            "request": "launch",
+            "mainClass": "Plus123",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tax",
+            "request": "launch",
+            "mainClass": "Tax",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConveyorBelt",
+            "request": "launch",
+            "mainClass": "samsungSW.ConveyorBelt",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConveyorBelt",
+            "request": "launch",
+            "mainClass": "SamsungSW.ConveyorBelt",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operators",
+            "request": "launch",
+            "mainClass": "SamsungSW.Operators",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "reverse.Reverse",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bomballon",
+            "request": "launch",
+            "mainClass": "bomballon.Bomballon",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Blackjack",
+            "request": "launch",
+            "mainClass": "blackjack.Blackjack",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hansu",
+            "request": "launch",
+            "mainClass": "Hansu",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoosterGame",
+            "request": "launch",
+            "mainClass": "BoosterGame",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortCoding",
+            "request": "launch",
+            "mainClass": "ShortCoding",
+            "projectName": "algorithm_d9755504"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
