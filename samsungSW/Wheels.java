@@ -33,8 +33,7 @@ public class Wheels {
         for(int i=0;i<wheelTools.length;i++){
             ANS+= Integer.parseInt(wheelTools[i][0])==1 ? (int) Math.pow(2, i) : 0;   
         }
-        bw.write(ANS);
-        System.out.println(bw);
+        bw.write(ANS+"\n");
         bw.close();
     }
     private static void turnWheels(int num, int direction ,int left, int right, boolean[] visited) {
