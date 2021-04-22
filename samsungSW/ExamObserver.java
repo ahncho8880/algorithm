@@ -21,5 +21,6 @@ public class ExamObserver {
                 ans += student%C==0 ? student/C : (student/C)+1;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

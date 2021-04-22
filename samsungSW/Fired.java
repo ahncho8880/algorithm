@@ -15,7 +15,7 @@ public class Fired{
         }
         pickSchedules(schedules, 0, 0);
         System.out.println(MAX);
-
+        sc.close();
     }
     private static void pickSchedules(int[][] schedules, int start, int price){
         MAX = price > MAX ? price : MAX;

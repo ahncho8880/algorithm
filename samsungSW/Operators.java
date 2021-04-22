@@ -18,6 +18,7 @@ public class Operators {
         combinateX(numbers,opers,1,N-1,numbers[0]);
         System.out.println(MAX);
         System.out.println(MIN);
+        sc.close();
     }
     private static void combinateX(int[] numbers, int[] opers,int s, int n,int res) {
         if(n==0){

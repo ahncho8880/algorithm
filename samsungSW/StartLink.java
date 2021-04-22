@@ -16,6 +16,7 @@ public class StartLink{
         boolean[] team = new boolean[N];
         divideTeam(team, chem, 0, N/2);
         System.out.println(MIN);
+        sc.close();
     }
     private static void divideTeam(boolean[] team, int[][] chem, int start, int n) {
         if(n==0){

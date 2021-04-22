@@ -14,6 +14,7 @@ public class ConveyorBelt {
             durability[i] = sc.nextInt();
         }
         rotateConveyor(onRobot, durability,0,0);
+        sc.close();
     }
     private static void rotateConveyor(boolean[] robot, int[] durability, int useless,int cnt){
         if(K<=useless){
