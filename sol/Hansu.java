@@ -1,4 +1,7 @@
+package sol;
+
 import java.util.Scanner;
+
 public class Hansu{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

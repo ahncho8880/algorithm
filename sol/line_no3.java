@@ -1,4 +1,7 @@
+package sol;
+
 import java.util.*;
+
 public class line_no3{
     public static void main(String[] args){
         int[] enter = {1,4,2,3};

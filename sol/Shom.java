@@ -1,4 +1,4 @@
-package shom;
+package sol;
 
 import java.util.Scanner;
 
@@ -11,6 +11,7 @@ public class Shom {
         while(N!=0){
             N = check666(n++) ? N-1 : N;
         }
+        sc.close();
         System.out.println(n-1);
     }
     private static boolean check666(int n) {

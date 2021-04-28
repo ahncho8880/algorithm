@@ -1,4 +1,4 @@
-package reverse;
+package sol;
 
 import java.util.ArrayList;
 import java.util.Scanner;
