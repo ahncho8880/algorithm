@@ -1,3 +1,5 @@
-# algorithm
+# 코딩테스트
 
-*blahblah
+* 연습장
+* 삼성 SW 역량 테스트 기출
+* 기타
