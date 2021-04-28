@@ -1,4 +1,7 @@
+package sol;
+
 import java.util.Scanner;
+
 public class HunterOfPrize {
     static int N;
     static int FIRST_GRADE, SECOND_GRADE;
@@ -18,6 +21,7 @@ public class HunterOfPrize {
             N--;
             System.out.println(a+b);
         }
+        sc.close();
     }
     public static int getPrize(int grade, int[] money, int[] count){
         int sum=0;

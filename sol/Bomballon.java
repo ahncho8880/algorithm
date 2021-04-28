@@ -1,4 +1,5 @@
-package bomballon;
+package sol;
+
 import java.util.Scanner;
 public class Bomballon {
     static int N;
