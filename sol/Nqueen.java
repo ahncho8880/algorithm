@@ -28,9 +28,7 @@ public class Nqueen {
             col[row] = i;
             if(isPossible(row)){
                 backtracking(max, row + 1);
-            } else {
-                col[row] = 0;
-            }
+            } 
         }
         col[row] = 0;
     }
@@ -40,7 +38,6 @@ public class Nqueen {
             if(col[i] == col[row]) return false;
             if(Math.abs(row - i) == Math.abs(col[row] - col[i])) return false;
         }
-        
         return true;
     }
 
