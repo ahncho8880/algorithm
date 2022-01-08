@@ -20,18 +20,12 @@ public class AC {
 		p = new String[T];
 		ans = new String[T];
 		int n;
-		String x;
-		String[] test;
 		ArrayList<String> list;
 		for (int i = 0; i < T; i++) {
 			p[i] = br.readLine();
 			n = Integer.parseInt(br.readLine());
-			// test = new String[n];
 			list = getList(br.readLine());
 			generateAC(p[i], list, n);
-		}
-		for (int i = 0; i < T; i++) {
-			
 		}
 	}
 

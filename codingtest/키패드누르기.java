@@ -1,3 +1,5 @@
+package codingtest;
+
 import java.util.*;
 
 class Solution {
@@ -20,7 +22,7 @@ class Solution {
         right = new int[]{3,2};
         String answer = "";
         for(int i=0;i<numbers.length;i++){
-            int target = number[i];
+            int target = numbers[i];
             answer += pushNumber(target, hand, answer);
         }
         return answer;
